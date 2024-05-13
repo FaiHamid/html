@@ -1,0 +1,13 @@
+.people {
+  display: grid;
+  padding-top: 30px;
+  grid-template-columns: repeat(2, 220px);
+  grid-template-rows: repeat(2, 271px);
+  justify-content: center;
+  gap: 0px 10px;
+
+  @media (min-width:1000px) {
+    grid-template-columns: repeat(4, 220px);
+    grid-template-rows: repeat(3, 271px);
+  }
+}
